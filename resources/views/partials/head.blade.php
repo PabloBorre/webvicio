@@ -1,16 +1,24 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ $description ?? config('app.name') }}">
 
 <title>
-    {{ filled($title ?? null) ? $title.' - '.config('app.name', 'Laravel') : config('app.name', 'Laravel') }}
+    {{ filled($title ?? null) ? $title . ' - ' . config('app.name', 'Laravel') : config('app.name', 'Laravel') }}
 </title>
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- Fav Icon -->
+<link rel="icon" type="image/x-icon" href="{{ asset('assets/imgs/logo/favicon.png') }}">
 
-<link rel="preconnect" href="https://fonts.bunny.net">
-<link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+<!-- Dependencies CSS -->
+<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/fontawesome-pro.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/progressbar.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/odometer-theme-default.css') }}">
 
-@vite(['resources/css/app.css', 'resources/js/app.js'])
-@fluxAppearance
+<!-- Main CSS -->
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
