@@ -12,14 +12,9 @@
                 <div class="section-content">
                     <div class="section-title-wrapper">
                         <div class="title-wrapper">
-                            <h1 class="section-title rr_title_anim">We design,
-                                develop and
-                                build</h1>
+                            <h1 class="section-title rr_title_anim">La fiesta mas atrevida de la ciudad</h1>
                         </div>
-                        <div class="text-wrapper">
-                            <p class="text">We're a design and development agency since 2017 who craft digital masterpiece
-                                products.</p>
-                        </div>
+                        
                     </div>
                     <div class="meta-list">
                         <ul>
@@ -106,7 +101,7 @@
     <section class="marquee-text-area section-spacing-bottom marquee-text-area--padding">
         <div class="moving-text section">
             <div class="wrapper-text">
-                <h2 class="section-title rr-text-primary">We make brand big and bolder</h2>
+                <h2 class="section-title rr-text-primary">Los números de la fiesta</h2>
             </div>
         </div>
     </section>
@@ -118,16 +113,26 @@
             <div class="container">
                 <div class="choose-us__warpper choose-us--about fade-anim">
                     <div class="choose-us__item item-1">
-                        <p>years of experience</p>
-                        <h2><span class="odometer" data-count="15">0</span>+</h2>
+                        <p>Número de fiestas</p>
+                        <h2>
+                            <span class="odometer" data-count="50">0</span>
+                            <span class="suffix"> +</span>
+                        </h2>
                     </div>
                     <div class="choose-us__item item-2">
-                        <p>crafted digital products</p>
-                        <h2><span class="odometer" data-count="215">0</span></h2>
+                        <p>Visualizaciones</p>
+                        <h2>
+                            <span class="odometer" data-count="1">0</span>
+                            <span class="suffix"> M+</span>
+                        </h2>
                     </div>
                     <div class="choose-us__item item-3">
-                        <p>skilled team players</p>
-                        <h2><span class="odometer" data-count="70">0</span>+</h2>
+                        <p>Dj invitados</p>
+                        <h2>
+                            <span class="odometer" data-count="60">0</span>
+                            <span class="suffix"> +</span></h2>
+
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -143,16 +148,14 @@
                     <div class="section-title-2-wrapper">
                         <div class="info">
                             <div class="text-wrapper">
-                                <p class="text">— We help <br>
-                                    leaders create <br>
-                                    digital experiences <br>
-                                    from</p>
-                                <span>(2017 - 2025)</span>
+                                <p class="text">La mejor <br>
+                                    discoteca de <br>
+                                    andalucía</p>
+                                <span>(2025 - actualidad)</span>
                             </div>
                         </div>
                         <div class="title-wrapper">
-                            <h2 class="section-title-2 rr_title_anim">We design for
-                                global <span>brands</span></h2>
+                            <h2 class="section-title-2 rr_title_anim">Residencia Brø Málaga</h2>
                         </div>
                     </div>
                 </div>
@@ -181,16 +184,14 @@
                     <div class="section-title-2-wrapper">
                         <div class="info">
                             <div class="text-wrapper">
-                                <p class="text">— We help <br>
-                                    leaders create <br>
-                                    digital experiences <br>
-                                    from</p>
-                                <span>(2017 - 2025)</span>
+                                <p class="text">El beach club<br>
+                                    de referencia<br>
+                                    en andalucía</p>
+                                <span>(2024 - actualidad)</span>
                             </div>
                         </div>
                         <div class="title-wrapper">
-                            <h2 class="section-title-2 rr_title_anim">We design for
-                                global <span>brands</span></h2>
+                            <h2 class="section-title-2 rr_title_anim">Residencia en Playa Aruba</h2>
                         </div>
                     </div>
                 </div>
@@ -214,7 +215,7 @@
     <section class="marquee-text-area section-spacing-bottom marquee-text-area--padding">
         <div class="moving-text section">
             <div class="wrapper-text">
-                <h2 class="section-title rr-text-primary">We make brand big and bolder</h2>
+                <h2 class="section-title rr-text-primary">Sesiones Dj boiler room</h2>
             </div>
         </div>
     </section>
@@ -390,6 +391,8 @@
             </div>
         </div>
         {{-- Showcase Slider Holder end --}}
+        </div>
+    {{-- clam slider end --}}
 
 
 
@@ -399,7 +402,7 @@
             <div class="service-6-section-header">
                 <div class="section-title-wrapper fade-anim">
                     <div class="title-wrapper">
-                        <h2 class="section-title-6">( 5 ) Fun Fact</h2>
+                        <h2 class="section-title-6">La fiesta</h2>
                     </div>
                 </div>
             </div>

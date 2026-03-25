@@ -10,10 +10,11 @@
     </svg>
     <div class="loader-wrap-heading">
         <div class="load-text">
-            <span>A</span>
-            <span>d</span>
-            <span>o</span>
-            <span>n</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>I</span>
+            <span>O</span>
         </div>
     </div>
 </div>
@@ -79,48 +80,8 @@
             <div class="header-area__inner">
                 <div class="header__logo">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/imgs/logo/light-logo.png') }}" class="normal-logo" alt="{{ config('app.name') }}">
+                        <img src="{{ asset('assets/imgs/LOGO_VICIO.webp') }}" class="normal-logo" alt="{{ config('app.name') }}">
                     </a>
-                </div>
-                <div class="header__shape">
-                    <svg width="13" height="40" viewBox="0 0 13 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="6" width="1" height="40" fill="white" fill-opacity="0.1" />
-                        <rect y="10" width="1" height="20" fill="white" fill-opacity="0.1" />
-                        <rect x="12" y="10" width="1" height="20" fill="white" fill-opacity="0.1" />
-                    </svg>
-                </div>
-                <div class="header__nav">
-                    <nav class="main-menu">
-                        <ul>
-                            <li class="{{ request()->routeIs('home') ? 'active' : '' }}">
-                                <a href="">Home</a>
-                            </li>
-                            <li class="{{ request()->routeIs('about') ? 'active' : '' }}">
-                                <a href="">About Us</a>
-                            </li>
-                            <li class="menu-item-has-children {{ request()->routeIs('service*') ? 'active' : '' }}">
-                                <a href="#">Service</a>
-                                <ul class="dp-menu">
-                                    <li><a href="">Core Services</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children {{ request()->routeIs('blog*') ? 'active' : '' }}">
-                                <a href="#">Blog</a>
-                                <ul class="dp-menu">
-                                    <li><a href="">Blog</a></li>
-                                    <li><a href="">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="{{ request()->routeIs('contact') ? 'active' : '' }}">
-                                <a href="">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header__navicon d-xl-none">
-                    <button class="side-toggle">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
                 </div>
             </div>
         </div>

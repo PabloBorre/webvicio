@@ -3795,7 +3795,6 @@ section {
   gap: 30px;
   position: relative;
   height: 75px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 70px;
   padding: 0 30px 0 30px;
   margin-top: 20px;
@@ -12029,7 +12028,6 @@ section {
   font-size: 215px;
   line-height: 0.86;
   letter-spacing: -0.09em;
-  text-transform: uppercase;
 }
 @media only screen and (max-width: 1919px) {
   .section-title-6 {
@@ -24654,6 +24652,10 @@ section {
 }
 
 /* full screen clam slider page css */
+.clam-slider {
+  position: relative;
+}
+
 .clam-slider .header-area-8__inner {
   padding: 50px 0;
 }
