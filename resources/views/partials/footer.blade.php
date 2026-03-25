@@ -9,16 +9,16 @@
                             right <br> now
                         </h2>
                     </div>
-                    <a href="{{ route('contact') }}" class="rr-btn-underline">Let's get started now</a>
+                    <a href=" " class="rr-btn-underline">Let's get started now</a>
                 </div>
                 <div class="footer-widget-box">
                     <h2 class="title">Company</h2>
                     <ul class="footer-nav-list">
-                        <li><a href="{{ route('about') }}">Agency</a></li>
-                        <li><a href="{{ route('service') }}">Solutions</a></li>
-                        <li><a href="{{ route('team') }}">Community</a></li>
-                        <li><a href="{{ route('work') }}">Work</a></li>
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="">Agency</a></li>
+                        <li><a href="">Solutions</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Work</a></li>
+                        <li><a href=" ">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-widget-box">
@@ -35,10 +35,10 @@
                 <div class="footer-widget-box">
                     <h2 class="title">Office</h2>
                     <ul class="footer-nav-list">
-                        <li><a href="{{ route('contact') }}">New York</a></li>
-                        <li><a href="{{ route('contact') }}">Toronto</a></li>
-                        <li><a href="{{ route('contact') }}">Berlin</a></li>
-                        <li><a href="{{ route('contact') }}">London</a></li>
+                        <li><a href=" ">New York</a></li>
+                        <li><a href=" ">Toronto</a></li>
+                        <li><a href=" ">Berlin</a></li>
+                        <li><a href=" ">London</a></li>
                     </ul>
                 </div>
             </div>

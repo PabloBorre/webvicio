@@ -31,7 +31,7 @@
         <div class="side-info-content">
             <div class="offset-widget offset-header">
                 <div class="offset-logo">
-                    <a href="{{ route('home') }}">
+                    <a href=">
                         <img class="show-light" src="{{ asset('assets/imgs/logo/dark-logo.png') }}" alt="{{ config('app.name') }}">
                         <img class="show-dark" src="{{ asset('assets/imgs/logo/light-logo.png') }}" alt="{{ config('app.name') }}">
                     </a>
@@ -42,7 +42,7 @@
             </div>
             <div class="mobile-menu d-xl-none fix"></div>
             <div class="offset-button">
-                <a href="{{ route('contact') }}" class="rr-btn">
+                <a href="" class="rr-btn">
                     <span class="btn-wrap">
                         <span class="text-one">Let's Talk</span>
                         <span class="text-two">Let's Talk</span>
@@ -93,26 +93,26 @@
                     <nav class="main-menu">
                         <ul>
                             <li class="{{ request()->routeIs('home') ? 'active' : '' }}">
-                                <a href="{{ route('home') }}">Home</a>
+                                <a href="">Home</a>
                             </li>
                             <li class="{{ request()->routeIs('about') ? 'active' : '' }}">
-                                <a href="{{ route('about') }}">About Us</a>
+                                <a href="">About Us</a>
                             </li>
                             <li class="menu-item-has-children {{ request()->routeIs('service*') ? 'active' : '' }}">
                                 <a href="#">Service</a>
                                 <ul class="dp-menu">
-                                    <li><a href="{{ route('service') }}">Core Services</a></li>
+                                    <li><a href="">Core Services</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children {{ request()->routeIs('blog*') ? 'active' : '' }}">
                                 <a href="#">Blog</a>
                                 <ul class="dp-menu">
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
-                                    <li><a href="{{ route('blog.show', ':slug') }}">Blog Details</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Blog Details</a></li>
                                 </ul>
                             </li>
                             <li class="{{ request()->routeIs('contact') ? 'active' : '' }}">
-                                <a href="{{ route('contact') }}">Contact</a>
+                                <a href="">Contact</a>
                             </li>
                         </ul>
                     </nav>
