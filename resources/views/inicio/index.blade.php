@@ -44,49 +44,49 @@
                         <div class="work-box">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-2.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="work-box fade-anim">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-3.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/leds.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="work-box fade-anim">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-4.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/equipo_vicio.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="work-box fade-anim">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-5.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/equipo_vicio2.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="work-box fade-anim">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-6.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/merchandaising.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="work-box fade-anim">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-7.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="work-box fade-anim">
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/project/image-8.webp') }}" alt="image"></a>
+                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso2.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +170,7 @@
         <div class="image-wrapper">
             <span class="label-left">(ESTA)</span>
             <span class="label-right">(2020)</span>
-            <img src="{{ asset('assets/imgs/gallery/gallery-r-8.webp') }}" alt="image">
+            <img src="{{ asset('assets/imgs/discotecabro.webp') }}" alt="image">
         </div>
     </div>
     {{-- hero image area end --}}
@@ -206,7 +206,7 @@
         <div class="image-wrapper">
             <span class="label-left">(ESTA)</span>
             <span class="label-right">(2020)</span>
-            <img src="{{ asset('assets/imgs/gallery/gallery-r-8.webp') }}" alt="image">
+            <img src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
         </div>
     </div>
     {{-- hero image area end --}}

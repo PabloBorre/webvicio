@@ -8500,7 +8500,7 @@ section {
   }
 }
 .work-area-2 .works-wrapper > *:nth-child(3) {
-  margin-top: -150px;
+  /*margin-top: -150px;*/
   margin-left: 215px;
 }
 @media only screen and (max-width: 767px) {
@@ -25995,3 +25995,10 @@ section {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }/*# sourceMappingURL=style.css.map */
+
+  .work-area-2 .section-header {
+    position: sticky;
+    top: 40vh;
+    z-index: 10;
+    pointer-events: none;
+  }

@@ -69,3 +69,79 @@
 <script src="{{ asset('assets/js/TextPlugin.js') }}"></script>
 <script src="{{ asset('assets/js/customEase.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/image-reveal-hover.js') }}"></script>
+<script src="{{ asset('assets/js/tween-max.min.js') }}"></script>
+<script src="{{ asset('assets/js/magiccursor.js') }}"></script>
+<script src="{{ asset('assets/js/backToTop.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.meanmenu.min.js') }}"></script>
+
+<script>
+  // Sobreescribir animaciones de hero-area-7 para soportar múltiples instancias
+  document.addEventListener("DOMContentLoaded", function () {
+
+    // Matar los ScrollTriggers que main.js creó para hero-area-7
+    ScrollTrigger.getAll().forEach(function (trigger) {
+      const t = trigger.vars && trigger.vars.scrollTrigger;
+      const triggerEl = trigger.trigger;
+      if (
+        triggerEl && (
+          triggerEl.classList.contains("hero-area-7") ||
+          triggerEl.classList.contains("label-left") ||
+          triggerEl.classList.contains("label-right")
+        )
+      ) {
+        trigger.kill();
+      }
+    });
+
+    // Re-aplicar las animaciones para cada instancia individualmente
+    if (window.innerWidth > 1200) {
+      gsap.utils.toArray(".hero-area-7").forEach(function (section) {
+        const imageWrapper = section.querySelector(".image-wrapper");
+        const labelLeft    = section.querySelector(".label-left");
+        const labelRight   = section.querySelector(".label-right");
+
+        // Expansión de imagen a pantalla completa
+        gsap.to(imageWrapper, {
+          scrollTrigger: {
+            trigger: section,
+            start: "top top",
+            end: "bottom -=100%",
+            scrub: 1,
+            pin: true,
+          },
+          width: "100vw",
+          height: "100vh",
+          ease: "power4.inOut"
+        });
+
+        // Label izquierda
+        gsap.to(labelLeft, {
+          scrollTrigger: {
+            trigger: section,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: true
+          },
+          opacity: 1,
+          x: -10
+        });
+
+        // Label derecha
+        gsap.to(labelRight, {
+          scrollTrigger: {
+            trigger: section,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: true
+          },
+          opacity: 1,
+          x: 10
+        });
+      });
+
+      ScrollTrigger.refresh();
+    }
+  });
+</script>
+
