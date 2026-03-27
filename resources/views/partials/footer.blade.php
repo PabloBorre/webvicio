@@ -74,6 +74,9 @@
 <script src="{{ asset('assets/js/magiccursor.js') }}"></script>
 <script src="{{ asset('assets/js/backToTop.js') }}"></script>
 <script src="{{ asset('assets/js/jquery.meanmenu.min.js') }}"></script>
+<script src="{{ asset('assets/js/Three.js') }}"></script>
+<script src="{{ asset('assets/js/rr-devs-webgl.js') }}"></script>
+<script src="{{ asset('assets/js/clam-slider.js') }}"></script>
 
 <script>
   // Sobreescribir animaciones de hero-area-7 para soportar múltiples instancias
@@ -169,6 +172,22 @@
 @keyframes flipIn {
     0%   { transform: rotateX(90deg);  opacity: 0; }
     100% { transform: rotateX(0deg);   opacity: 1; }
+}
+
+
+/* clam slider embebido en homepage */
+.clam-slider #canvas-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.clam-slider {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
 </style>
 

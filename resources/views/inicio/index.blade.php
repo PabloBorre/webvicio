@@ -175,8 +175,8 @@
     {{-- hero image area start --}}
     <div class="hero-area-7 rr-bg-light">
         <div class="image-wrapper">
-            <span class="label-left">(ESTA)</span>
-            <span class="label-right">(2020)</span>
+            <span class="label-left">(BRO)</span>
+            <span class="label-right">(MÁLAGA)</span>
             <img src="{{ asset('assets/imgs/discotecabro.webp') }}" alt="image">
         </div>
     </div>
@@ -211,8 +211,8 @@
     {{-- hero image area start --}}
     <div class="hero-area-7 rr-bg-light">
         <div class="image-wrapper">
-            <span class="label-left">(ESTA)</span>
-            <span class="label-right">(2020)</span>
+            <span class="label-left">(PLAYA)</span>
+            <span class="label-right">(ARUBA)</span>
             <img src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
         </div>
     </div>
@@ -227,7 +227,6 @@
         </div>
     </section>
     {{-- marquee text area end --}}
-
 
     {{-- clam slider start --}}
     <div class="clam-slider">
@@ -255,14 +254,7 @@
                                     <div class="overflow-hidden"><span>Caminera</span></div>
                                 </a>
                             </div>
-                        </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>001</li>
-                                <li>Design</li>
-                                <li class="year">2025</li>
-                            </ul>
-                        </div>
+                        </div>       
                     </div>
 
                     <div class="swiper-slide">
@@ -274,13 +266,6 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>002</li>
-                                <li>Branding</li>
-                                <li class="year">2024</li>
-                            </ul>
-                        </div>
                     </div>
 
                     <div class="swiper-slide">
@@ -291,13 +276,6 @@
                                     <div class="overflow-hidden"><span>Miramono</span></div>
                                 </a>
                             </div>
-                        </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>003</li>
-                                <li>Development</li>
-                                <li class="year">2024</li>
-                            </ul>
                         </div>
                     </div>
 
@@ -311,13 +289,6 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>004</li>
-                                <li>Design</li>
-                                <li class="year">2023</li>
-                            </ul>
-                        </div>
                     </div>
 
                     <div class="swiper-slide">
@@ -328,13 +299,6 @@
                                     <div class="overflow-hidden"><span>Maserati</span></div>
                                 </a>
                             </div>
-                        </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>005</li>
-                                <li>Marketing</li>
-                                <li class="year">2023</li>
-                            </ul>
                         </div>
                     </div>
 
@@ -348,13 +312,6 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>006</li>
-                                <li>Strategy</li>
-                                <li class="year">2022</li>
-                            </ul>
-                        </div>
                     </div>
 
                     <div class="swiper-slide">
@@ -365,13 +322,6 @@
                                     <div class="overflow-hidden"><span>Cupra</span></div>
                                 </a>
                             </div>
-                        </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>007</li>
-                                <li>Brand Guideline</li>
-                                <li class="year">2019</li>
-                            </ul>
                         </div>
                     </div>
 
@@ -385,20 +335,60 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="clam-slider__content-wrapper">
-                            <ul class="clam-slider__meta-list">
-                                <li>008</li>
-                                <li>Marketing</li>
-                                <li class="year">2017</li>
-                            </ul>
-                        </div>
                     </div>
 
                 </div>
             </div>
         </div>
         {{-- Showcase Slider Holder end --}}
+
+        {{-- canvas slider --}}
+        <div id="canvas-slider" class="canvas-slider">
+            <div class="slider-img" data-slide="0">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="1">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="2">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="3">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="4">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="5">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="6">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
+            <div class="slider-img" data-slide="7">
+                <img class="slide-img" src="{{ asset('assets/imgs/aruba.webp') }}" alt="image">
+            </div>
         </div>
+        {{-- canvas slider end --}}
+
+        {{-- arrow --}}
+        <div class="clam-slider__arrow">
+            <button class="clam-slider__arrow-prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="clam-slider__arrow-next">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+        {{-- arrow end --}}
+
+        {{-- pagination --}}
+        <div class="clam-slider-pagination-wrapper">
+            <div class="clam-slider-pagination"></div>
+        </div>
+        {{-- pagination end --}}
+
+    </div>
     {{-- clam slider end --}}
 
 
