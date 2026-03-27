@@ -172,56 +172,21 @@
 }
 </style>
 
+
+
 <script>
-(function () {
-    const words    = ['Decoración', 'Leds', 'Equipo vicio', 'Merchandising', 'Detalle vicioso'];
-    const section  = document.querySelector('.work-area-2');
-    const flipEl   = document.getElementById('work-flip-word');
-    const header   = document.querySelector('.work-area-2 .section-header');
-
-    if (!section || !flipEl || !header) return;
-
-    flipEl.innerHTML = '<span class="word-inner">' + words[0] + '</span>';
-    let current   = 0;
-    let animating = false;
-
-    function changeWord(index) {
-        if (index === current || animating) return;
-        animating = true;
-        flipEl.classList.add('flip-out');
-        setTimeout(function () {
-            flipEl.classList.remove('flip-out');
-            flipEl.innerHTML = '<span class="word-inner">' + words[index] + '</span>';
-            flipEl.classList.add('flip-in');
-            setTimeout(function () {
-                flipEl.classList.remove('flip-in');
-                animating = false;
-            }, 200);
-            current = index;
-        }, 200);
-    }
-
-    window.addEventListener('scroll', function () {
-
-        // Mover el header siguiendo el scroll dentro de la sección
-        const sectionRect = section.getBoundingClientRect();
-        const headerHeight = header.offsetHeight;
-        const sectionHeight = section.offsetHeight;
-        const maxOffset = sectionHeight - headerHeight;
-        const scrolled = Math.min(Math.max(-sectionRect.top, 0), maxOffset);
-        header.style.transform = 'translateY(' + scrolled + 'px)';
-
-        // Cambiar la palabra según la imagen más cercana al centro
-        const boxes = section.querySelectorAll('.work-box');
-        let closest = 0;
-        let minDist  = Infinity;
-        boxes.forEach(function (box, i) {
-            const rect = box.getBoundingClientRect();
-            const dist = Math.abs(rect.top + rect.height / 2 - window.innerHeight / 2);
-            if (dist < minDist) { minDist = dist; closest = i; }
-        });
-        changeWord(closest);
+gsap.utils.toArray('.fun-fact-area-inner').forEach((section, index) => {
+    const w = section.querySelector('.fun-fact-wrapper');
+    const [x, xEnd] = (index % 2) ? [(section.offsetWidth - w.scrollWidth), 0] : [0, section.offsetWidth - w.scrollWidth];
+    gsap.fromTo(w, { x }, {
+        x: xEnd,
+        scrollTrigger: {
+            trigger: ".fun-fact-area",
+            scrub: 1,
+            start: "bottom bottom",
+            pin: true,
+        }
     });
-})();
+});
+ScrollTrigger.refresh();
 </script>
-

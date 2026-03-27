@@ -242,7 +242,7 @@
         </div>
 
         {{-- Showcase Slider Holder --}}
-        <div id="clam-slider-holder" data-pattern-img="{{ asset('assets/imgs/displacement/1.webp') }}">
+        <div id="clam-slider-holder" data-pattern-img="{{ asset('assets/imgs/1.webp') }}">
             <div id="clam-slider-main" class="swiper-container">
                 <div id="trigger-slides" class="swiper-wrapper">
 
@@ -418,100 +418,61 @@
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
+    
                         </div>
                     </div>
                     
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
 
                     <div class="fun-fact__item">
                         <div class="media">
                             <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
-                            <div class="text">
-                                <h6><span>More than 17 years of</span>
-                                    experience in branding design</h6>
-                            </div>
                         </div>
                     </div>
                 </div>
