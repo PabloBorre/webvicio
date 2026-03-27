@@ -405,7 +405,7 @@
 
     {{-- fun fact area start --}}
     <section class="fun-fact-area section-spacing">
-        <div class="container rr-container-1850">
+        
             <div class="service-6-section-header">
                 <div class="section-title-wrapper fade-anim">
                     <div class="title-wrapper">
@@ -516,7 +516,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     {{-- fun fact area end --}}
 
