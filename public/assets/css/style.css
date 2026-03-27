@@ -25996,9 +25996,11 @@ section {
   border-bottom: 1px solid var(--border);
 }/*# sourceMappingURL=style.css.map */
 
-  .work-area-2 .section-header {
+
+.work-area-2 .section-header {
     position: sticky;
     top: 40vh;
     z-index: 10;
     pointer-events: none;
-  }
+    transform: none;
+}

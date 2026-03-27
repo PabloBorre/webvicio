@@ -37,7 +37,14 @@
         <div class="container rr-container-1750">
             <div class="work-area-2-inner">
                 <div class="section-header">
-                    <h2 class="section-title">W <span class="remove-text">ork <span class="number">(22)</span></span></h2>
+                    <h2 class="section-title">
+                        <span id="work-flip-word" class="flip-word">
+                            <span class="word-inner">Decoración</span>
+                        </span>
+                        <span class="remove-text">
+                            <span class="number">(22)</span>
+                        </span>
+                    </h2>
                 </div>
                 <div class="works-wrapper-box-2">
                     <div class="works-wrapper">
@@ -410,50 +417,101 @@
                 <div class="fun-fact-wrapper">
                     <div class="fun-fact__item">
                         <div class="media">
-                            <img src="{{ asset('assets/imgs/service/fun-fact-r-1.webp') }}" alt="image">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
                             <div class="text">
                                 <h6><span>More than 17 years of</span>
                                     experience in branding design</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="fun-fact__item has--card">
-                        <div class="content">
-                            <h6><span>Crafted more than 300+</span>
-                                digital products since 2017</h6>
-                            <a href=""><span>( + )</span>Case Study <i class="fa-regular fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    
                     <div class="fun-fact__item">
                         <div class="media">
-                            <img src="{{ asset('assets/imgs/service/fun-fact-r-2.webp') }}" alt="image">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
                             <div class="text">
                                 <h6><span>More than 17 years of</span>
                                     experience in branding design</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="fun-fact__item has--card">
-                        <div class="content">
-                            <h6><span>Our dedication to the highest</span>
-                                quality results us a lots of awards</h6>
-                            <a href=""><span>( + )</span>Case Study <i class="fa-regular fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+
                     <div class="fun-fact__item">
                         <div class="media">
-                            <img src="{{ asset('assets/imgs/service/fun-fact-r-3.webp') }}" alt="image">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
                             <div class="text">
                                 <h6><span>More than 17 years of</span>
                                     experience in branding design</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="fun-fact__item has--card">
-                        <div class="content">
-                            <h6><span>We have worked with</span>
-                                more than 140+ happy clients</h6>
-                            <a href=""><span>( + )</span>Case Study <i class="fa-regular fa-arrow-right"></i></a>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fun-fact__item">
+                        <div class="media">
+                            <img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image">
+                            <div class="text">
+                                <h6><span>More than 17 years of</span>
+                                    experience in branding design</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
