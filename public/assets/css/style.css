@@ -456,8 +456,11 @@ h6 {
   background-color: #212121;
 }
 
+/* opción más oscura */
 .rr-bg-light {
-  background-color: #F8F2EF;
+    background-color: #270233;
+    --primary: #EECBE2;
+    --border: rgba(238, 203, 226, 0.1);
 }
 .dark .rr-bg-light {
   background-color: #111111;
@@ -1667,15 +1670,15 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #270233;
   color: var(--secondary);
 }
 
 .body-wrapper {
-  background-color: var(--white);
+  background-color: #270233;
 }
 .body-wrapper.dark {
-  background-color: var(--black);
+  background-color: #270233;
 }
 
 .img_anim_reveal {
@@ -1841,7 +1844,7 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: var(--action);
+  background: #270233;
   z-index: 99999999999999;
 }
 
@@ -1850,14 +1853,14 @@ section {
   top: 0;
   width: 100vw;
   height: 110vh;
-  fill: #000;
+  fill: #BF9BC8;
 }
 
 .loader-wrap .loader-wrap-heading .load-text {
   font-size: 100px;
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--white);
+  color: #EECBE2;
   z-index: 20;
 }
 @media only screen and (max-width: 767px) {
@@ -7230,6 +7233,7 @@ section {
   color: var(--black);
 }
 .marquee-text-area .section-title {
+  color: white;
   font-size: 280px;
   font-weight: 400;
   line-height: 1;
@@ -12028,6 +12032,7 @@ section {
   font-size: 215px;
   line-height: 0.86;
   letter-spacing: -0.09em;
+  color: white;
 }
 @media only screen and (max-width: 1919px) {
   .section-title-6 {
@@ -17229,7 +17234,7 @@ section {
   font-weight: 400;
   line-height: 22px;
   letter-spacing: -1px;
-  color: var(--primary);
+  color: white;
   font-family: var(--font_bdogrotesk);
 }
 @media only screen and (max-width: 991px) {
@@ -17243,7 +17248,7 @@ section {
   font-weight: 400;
   line-height: 20px;
   margin-top: 126px;
-  color: var(--primary);
+  color: white;
   letter-spacing: -1px;
   font-family: var(--font_bdogrotesk);
 }
@@ -26003,4 +26008,36 @@ section {
     z-index: 10;
     pointer-events: none;
     transform: none;
+}
+
+.section-title-2{
+  color:white;
+}
+
+
+
+/* choose-us items morado */
+.choose-us--about .choose-us__item.item-1 {
+    background-color: #EECBE2;
+}
+.choose-us--about .choose-us__item.item-1 p,
+.choose-us--about .choose-us__item.item-1 h2 {
+    color: #270233;
+}
+
+.choose-us--about .choose-us__item.item-2 {
+    background-color: #BF9BC8;
+}
+.choose-us--about .choose-us__item.item-2 p,
+.choose-us--about .choose-us__item.item-2 h2 {
+    color: #270233;
+}
+
+.choose-us--about .choose-us__item.item-3 {
+    background-color: #270233;
+    border: 1px solid #BF9BC8;
+}
+.choose-us--about .choose-us__item.item-3 p,
+.choose-us--about .choose-us__item.item-3 h2 {
+    color: #EECBE2;
 }

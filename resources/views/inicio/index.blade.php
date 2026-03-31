@@ -32,19 +32,12 @@
     </section>
     {{-- hero area end --}}
 
-    {{-- work area start --}}
-    <section class="work-area-2">
+     {{-- work area start --}}
+    <section class="work-area-2" style="background-color: #270233;">
         <div class="container rr-container-1750">
             <div class="work-area-2-inner">
                 <div class="section-header">
-                    <h2 class="section-title">
-                        <span id="work-flip-word" class="flip-word">
-                            <span class="word-inner">Decoración</span>
-                        </span>
-                        <span class="remove-text">
-                            <span class="number">(22)</span>
-                        </span>
-                    </h2>
+                    <h2 class="section-title" style="color: #EECBE2;">W <span class="remove-text" style="color: #BF9BC8;">ork <span class="number">(22)</span></span></h2>
                 </div>
                 <div class="works-wrapper-box-2">
                     <div class="works-wrapper">
@@ -59,6 +52,20 @@
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
                                     <a href="#"><img src="{{ asset('assets/imgs/leds.webp') }}" alt="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-box fade-anim">
+                            <div class="thumb parallax-view">
+                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
+                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso.webp') }}" alt="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-box fade-anim">
+                            <div class="thumb parallax-view">
+                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
+                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso2.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
@@ -80,20 +87,6 @@
                             <div class="thumb parallax-view">
                                 <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
                                     <a href="#"><img src="{{ asset('assets/imgs/merchandaising.webp') }}" alt="image"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso.webp') }}" alt="image"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso2.webp') }}" alt="image"></a>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +234,7 @@
         </div>
 
         {{-- Showcase Slider Holder --}}
-        <div id="clam-slider-holder" data-pattern-img="{{ asset('assets/imgs/1.webp') }}">
+        <div id="clam-slider-holder" data-pattern-img="{{ asset('assets/imgs/displacement/1.webp') }}">
             <div id="clam-slider-main" class="swiper-container">
                 <div id="trigger-slides" class="swiper-wrapper">
 
@@ -254,7 +247,17 @@
                                     <div class="overflow-hidden"><span>Caminera</span></div>
                                 </a>
                             </div>
-                        </div>       
+                        </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>001</li>
+                                <li>Design</li>
+                                <li class="year">2025</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=UGRe8-l5eE4">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -266,6 +269,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>002</li>
+                                <li>Branding</li>
+                                <li class="year">2024</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_2">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -277,6 +290,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>003</li>
+                                <li>Development</li>
+                                <li class="year">2024</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_3">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -289,6 +312,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>004</li>
+                                <li>Design</li>
+                                <li class="year">2023</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_4">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -300,6 +333,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>005</li>
+                                <li>Marketing</li>
+                                <li class="year">2023</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_5">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -312,6 +355,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>006</li>
+                                <li>Strategy</li>
+                                <li class="year">2022</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_6">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -323,6 +376,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>007</li>
+                                <li>Brand Guideline</li>
+                                <li class="year">2019</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_7">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                     <div class="swiper-slide">
@@ -335,6 +398,16 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="clam-slider__content-wrapper">
+                            <ul class="clam-slider__meta-list">
+                                <li>008</li>
+                                <li>Marketing</li>
+                                <li class="year">2017</li>
+                            </ul>
+                        </div>
+                        <a class="clam-play-btn popup-video" href="https://www.youtube.com/watch?v=YOUTUBE_ID_8">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
                     </div>
 
                 </div>

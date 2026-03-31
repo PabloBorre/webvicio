@@ -149,46 +149,45 @@
 </script>
 
 <style>
-.flip-word {
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: bottom;
-    perspective: 400px;
-}
-.flip-word span.word-inner {
-    display: inline-block;
-    transform-origin: top center;
-}
-.flip-word.flip-out span.word-inner {
-    animation: flipOut 0.2s ease-in forwards;
-}
-.flip-word.flip-in span.word-inner {
-    animation: flipIn 0.2s ease-out forwards;
-}
-@keyframes flipOut {
-    0%   { transform: rotateX(0deg);   opacity: 1; }
-    100% { transform: rotateX(-90deg); opacity: 0; }
-}
-@keyframes flipIn {
-    0%   { transform: rotateX(90deg);  opacity: 0; }
-    100% { transform: rotateX(0deg);   opacity: 1; }
-}
-
 
 /* clam slider embebido en homepage */
-.clam-slider #canvas-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+    .clam-slider #canvas-slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
-.clam-slider {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
+    .clam-slider {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .clam-play-btn {
+        position: absolute;
+        left: 50%;
+        bottom: 290px;
+        transform: translateX(-50%);
+        width: 72px;
+        height: 72px;
+        background: #270233;
+        border: 1px solid #BF9BC8;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #EECBE2;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        z-index: 10;
+    }
+    .clam-play-btn:hover {
+        background: #BF9BC8;
+        color: #270233;
+        transform: translateX(-50%) scale(1.1);
+    }
 </style>
 
 
@@ -208,4 +207,13 @@ gsap.utils.toArray('.fun-fact-area-inner').forEach((section, index) => {
     });
 });
 ScrollTrigger.refresh();
+
+// clam slider video popup
+$('.clam-play-btn').magnificPopup({
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: true,
+});
 </script>
