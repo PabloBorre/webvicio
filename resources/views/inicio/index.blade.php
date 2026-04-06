@@ -18,11 +18,14 @@
                     </div>
                     <div class="meta-list">
                         <ul>
-                            <li>24 abril <br>
-                               Brø Málaga</li>
-
-                            <li>Coming soon<br>
-                                Playa Aruba</li>
+                            <li>
+                                {{ $proxBro ? $proxBro->event_date->translatedFormat('d F') : 'Coming soon' }}<br>
+                                Brø Málaga
+                            </li>
+                            <li>
+                                {{ $proxAruba ? $proxAruba->event_date->translatedFormat('d F') : 'Coming soon' }}<br>
+                                Playa Aruba
+                            </li>
                         </ul>
                     </div>
                 </div>

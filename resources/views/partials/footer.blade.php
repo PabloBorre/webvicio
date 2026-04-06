@@ -17,20 +17,20 @@
                     <h3 style="color:white; font-size: 18px; font-weight: 400; margin-top: 20px;">vicio the room</h3>
                 </div>
                 <div class="footer-widget-box">
-                    <h2 class="title"><a href="https://">Aviso Legal</a></h2>
+                    <h2 class="title"><a href="{{ route('web.legal.aviso-legal') }}">Aviso Legal</a></h2>
                 </div>
                 <div class="footer-widget-box">
-                    <h2 class="title"><a href="https://">Cookies</a></h2>
+                    <h2 class="title"><a href="{{ route('web.legal.cookies') }}">Cookies</a></h2>
                 </div>
                 <div class="footer-widget-box">
-                    <h2 class="title"><a href="https://">Privacidad</a></h2>
+                    <h2 class="title"><a href="{{ route('web.legal.privacidad') }}">Privacidad</a></h2>
                 </div>
             </div>
         </div>
 
         <div class="copyright-area">
             <div class="copyright-area-inner" style="display: flex; justify-content: space-between; align-items: center;">
-                <p class="text" style="color: #BF9BC8; font-size: 14px; font-style: italic;">capazero with love</p>
+                <p class="text" style="color: #BF9BC8; font-size: 14px; font-style: italic;"><a href="https://capazero.es/" style="color: #BF9BC8">Capazero</a> with love</p>
                 <p class="text" style="color: white;">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved <a href="https://capazero.es/" style="color: white">Capazero</a></p>
             </div>
         </div>

@@ -24,6 +24,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->configureDefaults();
+        \Carbon\Carbon::setLocale('es');
+        \Illuminate\Support\Facades\Blade::componentNamespace('Illuminate\\View\\AnonymousComponent', 'layouts');
     }
 
     /**
