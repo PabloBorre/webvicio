@@ -178,7 +178,7 @@ a {
   color: inherit;
 }
 a:hover {
-  color: var(--primary);
+  color: #BF9BC8;
 }
 
 button {
@@ -5114,7 +5114,7 @@ section {
   line-height: 85px;
   letter-spacing: -3.5px;
   font-family: var(--font_bdogrotesk);
-  color: var(--primary);
+  color: #eecbe2;
   display: inline-block;
 }
 .dark .footer-area .footer-widget-wrapper-box .content .title {
@@ -5187,11 +5187,11 @@ section {
   font-size: 22px;
   line-height: 20px;
   margin-bottom: 30px;
-  color: #999999;
+  color: white;
   font-family: var(--font_dmsans);
 }
 .dark .footer-area .footer-widget-box .title {
-  color: #555555;
+  color: white;
 }
 @media only screen and (max-width: 1919px) {
   .footer-area .footer-widget-box .title {

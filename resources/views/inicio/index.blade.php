@@ -18,12 +18,11 @@
                     </div>
                     <div class="meta-list">
                         <ul>
-                            <li>An award <br>
-                                winning digital agency <br>
-                                since - 2017</li>
-                            <li>Adon <br>
-                                1772 Street Charleston, <br>
-                                New York</li>
+                            <li>24 abril <br>
+                               Brø Málaga</li>
+
+                            <li>Coming soon<br>
+                                Playa Aruba</li>
                         </ul>
                     </div>
                 </div>
@@ -32,70 +31,74 @@
     </section>
     {{-- hero area end --}}
 
-     {{-- work area start --}}
-    <section class="work-area-2" style="background-color: #270233;">
-        <div class="container rr-container-1750">
-            <div class="work-area-2-inner">
-                <div class="section-header">
-                    <h2 class="section-title" style="color: #EECBE2;">W <span class="remove-text" style="color: #BF9BC8;">ork <span class="number">(22)</span></span></h2>
-                </div>
-                <div class="works-wrapper-box-2">
-                    <div class="works-wrapper">
-                        <div class="work-box">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image"></a>
-                                </div>
+{{-- work area start --}}
+<section class="work-area-2" style="background-color: #270233;">
+    <div class="container rr-container-1750">
+        <div class="work-area-2-inner">
+            <div class="section-header">
+                <h2 class="section-title" style="color: #EECBE2;">
+                    <span id="work-flip-word" class="flip-word">
+                        <span class="word-inner">Decoración</span>
+                    </span>
+                </h2>
+            </div>
+            <div class="works-wrapper-box-2">
+                <div class="works-wrapper">
+                    <div class="work-box" data-word="Decoración">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8">
+                                <a href="#"><img src="{{ asset('assets/imgs/decoracion.webp') }}" alt="image"></a>
                             </div>
                         </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/leds.webp') }}" alt="image"></a>
-                                </div>
+                    </div>
+                    <div class="work-box fade-anim" data-word="Leds">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8"  >
+                                <a href="#"><img src="{{ asset('assets/imgs/leds.webp') }}" alt="image"></a>
                             </div>
                         </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso.webp') }}" alt="image"></a>
-                                </div>
+                    </div>
+                    <div class="work-box fade-anim" data-word="Detalle Vicioso">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8"  >
+                                <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso.webp') }}" alt="image"></a>
                             </div>
                         </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso2.webp') }}" alt="image"></a>
-                                </div>
+                    </div>
+                    <div class="work-box fade-anim" data-word="Detalle Vicioso">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8"  >
+                                <a href="#"><img src="{{ asset('assets/imgs/detalle_vicioso2.webp') }}" alt="image"></a>
                             </div>
                         </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/equipo_vicio.webp') }}" alt="image"></a>
-                                </div>
+                    </div>
+                    <div class="work-box fade-anim" data-word="Equipo Vicio">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8"  >
+                                <a href="#"><img src="{{ asset('assets/imgs/equipo_vicio.webp') }}" alt="image"></a>
                             </div>
                         </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/equipo_vicio2.webp') }}" alt="image"></a>
-                                </div>
+                    </div>
+                    <div class="work-box fade-anim" data-word="Equipo Vicio">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8"  >
+                                <a href="#"><img src="{{ asset('assets/imgs/equipo_vicio2.webp') }}" alt="image"></a>
                             </div>
                         </div>
-                        <div class="work-box fade-anim">
-                            <div class="thumb parallax-view">
-                                <div class="image" data-speed="0.8" data-cursor-text="View Details" data-cursor-class="-small">
-                                    <a href="#"><img src="{{ asset('assets/imgs/merchandaising.webp') }}" alt="image"></a>
-                                </div>
+                    </div>
+                    <div class="work-box fade-anim" data-word="Merchandising">
+                        <div class="thumb parallax-view">
+                            <div class="image" data-speed="0.8"  >
+                                <a href="#"><img src="{{ asset('assets/imgs/merchandaising.webp') }}" alt="image"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    {{-- work area end --}}
+    </div>
+</section>
+{{-- work area end --}}
 
     {{-- marquee text area start --}}
     <section class="marquee-text-area section-spacing-bottom marquee-text-area--padding">
