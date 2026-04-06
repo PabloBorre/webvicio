@@ -20,14 +20,16 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="copyright-area">
-        <div class="copyright-area-inner">
-            <div class="copyright-text">
-                <p class="text" style="color:white;">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved <a href="https://capazero.es/" style="color: white">Capazero</a> </p>
+
+        <div class="copyright-area">
+            <div class="copyright-area-inner">
+                <div class="copyright-text">
+                    <p class="text" style="color:white;">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved <a href="https://capazero.es/" style="color: white">Capazero</a> </p>
+                </div>
             </div>
         </div>
     </div>
+    
 </footer>
 <!-- footer area end -->
 

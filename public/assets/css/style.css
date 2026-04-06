@@ -5241,7 +5241,7 @@ section {
   font-size: 22px;
   line-height: 1;
   color: var(--primary);
-  text-align: center;
+  text-align: right;
 }
 @media only screen and (max-width: 1399px) {
   .footer-area .copyright-text .text {
