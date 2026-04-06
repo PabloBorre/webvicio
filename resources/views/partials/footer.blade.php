@@ -1,13 +1,20 @@
 <!-- footer area start -->
-<footer class="footer-area">
-    <div class="container rr-container-1650">
+<footer class="footer-area" style="background-color: #270233; position: relative; overflow: hidden;">
+
+    {{-- Logo de fondo --}}
+    <div style="position: absolute; top: 50%; right: -2%; transform: translateY(-50%); opacity: 0.08; pointer-events: none; z-index: 0; width: 55%;">
+        <img src="{{ asset('assets/imgs/LOGO_VICIO.webp') }}" alt="" style="width: 100%; height: auto;">
+    </div>
+
+    <div class="container rr-container-1650" style="position: relative; z-index: 1;">
         <div class="footer-widget-wrapper-box">
+
             <div class="footer-widget-wrapper">
                 <div class="footer-widget-box content">
                     <div class="title-wrapper">
-                        <h2 class="title rr_title_anim">La fiesta más <br><span style="color:#BF9BC8;">atrevida y divertida</span><br> de la ciudad</h2>
+                        <h2 class="title rr_title_anim" style="color: #EECBE2;">La fiesta más <br><span style="color:#BF9BC8;">atrevida y adictiva</span><br> de la ciudad</h2>
                     </div>
-                    <h3 style="color:white;">vicio the room</h3>
+                    <h3 style="color:white; font-size: 18px; font-weight: 400; margin-top: 20px;">vicio the room</h3>
                 </div>
                 <div class="footer-widget-box">
                     <h2 class="title"><a href="https://">Aviso Legal</a></h2>
@@ -22,14 +29,13 @@
         </div>
 
         <div class="copyright-area">
-            <div class="copyright-area-inner">
-                <div class="copyright-text">
-                    <p class="text" style="color:white;">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved <a href="https://capazero.es/" style="color: white">Capazero</a> </p>
-                </div>
+            <div class="copyright-area-inner" style="display: flex; justify-content: space-between; align-items: center;">
+                <p class="text" style="color: #BF9BC8; font-size: 14px; font-style: italic;">capazero with love</p>
+                <p class="text" style="color: white;">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved <a href="https://capazero.es/" style="color: white">Capazero</a></p>
             </div>
         </div>
     </div>
-    
+
 </footer>
 <!-- footer area end -->
 
@@ -210,25 +216,34 @@
 .work-area-2 .section-header .section-title {
     font-size: clamp(40px, 12vw, 250px);
 }
+
+@media (max-width: 768px) {
+    .work-area-2 .work-box.fade-anim {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
 </style>
 
 
 
 <script>
-gsap.utils.toArray('.fun-fact-area-inner').forEach((section, index) => {
-    const w = section.querySelector('.fun-fact-wrapper');
-    const [x, xEnd] = (index % 2) ? [(section.offsetWidth - w.scrollWidth), 0] : [0, section.offsetWidth - w.scrollWidth];
-    gsap.fromTo(w, { x }, {
-        x: xEnd,
-        scrollTrigger: {
-            trigger: ".fun-fact-area",
-            scrub: 1,
-            start: "bottom bottom",
-            pin: true,
-        }
+if (window.innerWidth > 768) {
+    gsap.utils.toArray('.fun-fact-area-inner').forEach((section, index) => {
+        const w = section.querySelector('.fun-fact-wrapper');
+        const [x, xEnd] = (index % 2) ? [(section.offsetWidth - w.scrollWidth), 0] : [0, section.offsetWidth - w.scrollWidth];
+        gsap.fromTo(w, { x }, {
+            x: xEnd,
+            scrollTrigger: {
+                trigger: ".fun-fact-area",
+                scrub: 1,
+                start: "bottom bottom",
+                pin: true,
+            }
+        });
     });
-});
-ScrollTrigger.refresh();
+    ScrollTrigger.refresh();
+}
 
 // clam slider video popup
 $('.clam-play-btn').magnificPopup({

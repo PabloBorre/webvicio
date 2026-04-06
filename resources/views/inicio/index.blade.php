@@ -470,7 +470,7 @@
 
 
     {{-- fun fact area start --}}
-    <section class="fun-fact-area section-spacing">
+    <section class="container fun-fact-area section-spacing">
         
             <div class="service-6-section-header">
                 <div class="section-title-wrapper fade-anim">

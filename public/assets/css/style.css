@@ -12787,6 +12787,7 @@ section {
 @media only screen and (max-width: 767px) {
   .fun-fact-area .fun-fact-wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .fun-fact-area .fun-fact__item {
@@ -26040,4 +26041,9 @@ section {
 .choose-us--about .choose-us__item.item-3 p,
 .choose-us--about .choose-us__item.item-3 h2 {
     color: #EECBE2;
+}
+
+.footer-widget-box:not(.content) {
+    display: flex;
+    align-items: end;
 }
