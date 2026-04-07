@@ -3,11 +3,12 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Event extends Model
 {
     protected $fillable = [
-        'venue',
+        'venue_id',
         'event_date',
         'label',
         'active',
@@ -18,13 +19,9 @@ class Event extends Model
         'active'     => 'boolean',
     ];
 
-    public function getVenueLabelAttribute(): string
+    public function venue(): BelongsTo
     {
-        return match ($this->venue) {
-            'bro'        => 'Brø Málaga',
-            'playa_aruba' => 'Playa Aruba',
-            default      => $this->venue,
-        };
+        return $this->belongsTo(Venue::class);
     }
 
     public function scopeActive($query)

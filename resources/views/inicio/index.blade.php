@@ -20,11 +20,11 @@
                         <ul>
                             <li>
                                 {{ $proxBro ? $proxBro->event_date->translatedFormat('d F') : 'Coming soon' }}<br>
-                                Brø Málaga
+                                {{ $proxBro ? $proxBro->venue->name : ($salas[0]->name ?? 'Brø Málaga') }}
                             </li>
                             <li>
                                 {{ $proxAruba ? $proxAruba->event_date->translatedFormat('d F') : 'Coming soon' }}<br>
-                                Playa Aruba
+                                {{ $proxAruba ? $proxAruba->venue->name : ($salas[1]->name ?? 'Playa Aruba') }}
                             </li>
                         </ul>
                     </div>
