@@ -12,7 +12,7 @@
                 <div class="section-content">
                     <div class="section-title-wrapper">
                         <div class="title-wrapper">
-                            <h1 class="section-title rr_title_anim">La fiesta mas atrevida de la ciudad</h1>
+                            <h1 class="section-title rr_title_anim">La fiesta mas adictiva de la ciudad</h1>
                         </div>
                         
                     </div>

@@ -108,8 +108,9 @@ new #[Title('Eventos')] class extends Component {
             <p class="text-sm text-zinc-500 dark:text-zinc-400">Gestiona las próximas fechas de Brø Málaga y Playa Aruba.</p>
         </div>
         @if (!$showForm)
-            <button wire:click="openCreate"
-                class="inline-flex items-center gap-2 rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200 transition">
+           <button wire:click="openCreate"
+            class="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition"
+            style="background-color: #BF9BC8; color: #270233;">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
                 </svg>
@@ -165,7 +166,8 @@ new #[Title('Eventos')] class extends Component {
 
             <div class="mt-6 flex gap-3">
                 <button wire:click="save"
-                    class="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200 transition">
+                    class="rounded-lg px-4 py-2 text-sm font-medium transition"
+                    style="background-color: #BF9BC8; color: #270233;">
                     {{ $editingId ? 'Guardar cambios' : 'Crear evento' }}
                 </button>
                 <button wire:click="cancel"
